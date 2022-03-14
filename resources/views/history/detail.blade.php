@@ -2,9 +2,6 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
-            <a href="{{ url('history') }}" class="btn btn-primary"><i class="fa fa-arrow-left"></i> Kembali</a>
-        </div>
         <div class="col-md-12 mt-2">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -18,7 +15,7 @@
             <div class="card">
                 <div class="card-body">
                     <h3>Sukses Check Out</h3>
-                    <h5>Pesanan anda sudah sukses dicheck out selanjutnya untuk pembayaran silahkan transfer di rekening <strong>Bank BRI Nomer Rekening : 32553-824629-591</strong> dengan nominal : <strong>Rp. {{ number_format($pesanan->jumlah_harga) }}</strong></h5>
+                    <h5>Pesanan anda sudah sukses dicheck out selanjutnya untuk pembayaran silahkan transfer di rekening <strong>Bank BRI Nomer Rekening : 33443-823518-603</strong> dengan nominal : <strong>Rp. {{ number_format($pesanan->jumlah_harga) }}</strong></h5>
                 </div>
             </div>
             <div class="card mt-2">
@@ -66,6 +63,10 @@
                             </tr>
                         </tbody>
                     </table>
+                    <div class="col-md-12">
+                        <a href="{{ url('history') }}" class="btn btn-danger"> Riwayat</a>
+                        <a href="{{ url('home') }}" class="btn btn-danger"> Kembali</a>
+                    </div>
                     @endif
 
                 </div>

@@ -25,7 +25,7 @@
 <div class="panel panel-container">
 
     <div class="row">
-         <div class="col-xs-6 col-md-3 col-lg-3 no-padding">
+        <div class="col-xs-6 col-md-3 col-lg-3 no-padding">
             <div class="panel panel-teal panel-widget border-right">
                 <div class="row no-padding"><em class="fa fa-xl fa-users color-blue"></em>
                     <div class="large">
@@ -42,6 +42,16 @@
                      {{$suplier = DB::table('supliers')->count();}}
                     </div>
                     <div class="text-muted">Data Supplier</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 col-md-3 col-lg-3 no-padding">
+            <div class="panel panel-teal panel-widget border-right">
+                <div class="row no-padding"><em class="fa fa-xl fa-shopping-basket color-blue"></em>
+                    <div class="large">
+                     {{$barang = DB::table('barangs')->count();}}
+                    </div>
+                    <div class="text-muted">Data Barang</div>
                 </div>
             </div>
         </div>

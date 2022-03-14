@@ -39,7 +39,7 @@
 @section('content')
 <div class="panel panel-default col-md-12">
     <div class="panel-heading">Supplier
-        <a href="{{ route('suplier.create') }}" class="btn btn-primary" style="float: right;">
+        <a href="{{ route('suplier.create') }}" class="btn btn-success" style="float: right;">
             <span class="fa fa-plus">&nbsp;</span> tambah</a>
     </div>
     <div class="panel-body">

@@ -40,8 +40,8 @@
                         </textarea>
                          </div>
                         <div class="form-group">
-                            <button type="reset" class="btn btn-outline-warning">Reset</button>
-                            <button type="submit" class="btn btn-outline-primary">Simpan</button>
+                            <button type="reset" class="btn btn-warning">Reset</button>
+                            <button type="submit" class="btn btn-danger">Simpan</button>
                         </div>
                     </form>
                 </div>

@@ -5,7 +5,6 @@
         </div>
         <div class="profile-usertitle">
             <div class="profile-usertitle-name">{{ Auth::user()->name }}</div>
-            <div class="profile-usertitle-status">
         </div>
         <div class="clear"></div>
     </div>

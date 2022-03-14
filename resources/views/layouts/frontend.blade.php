@@ -151,8 +151,10 @@
 									<Strong>Stok :
 									</strong>{{ $data->stok }} Unit <br>
 									<hr>
+                                    <Strong>Deskripsi :
+									</strong>{{ $data->deskripsi }}<br>
 								</p>
-								<a href="{{ url('pesan') }}/{{ $data->id }}" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Pesan</a>
+								<a href="{{ url('pesan') }}/{{ $data->id }}" class="btn btn-warning"><i class="fa fa-shopping-cart"></i> Pesan</a>
 							  </div>
 							</div>
                             <br>
@@ -170,7 +172,7 @@
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="section-title">
-						<h3>ProdukBaru</h3>
+						<h3>Produk Baru</h3>
 						<p>Ini Hiasan Saja.</p>
 					</div>
 				</div>
@@ -200,7 +202,7 @@
                                 => LD 102 PB 138<br>
                                 => FREE Pashmina<br>
                                 => Lebar 78 Panjang 135</p>
-							<a href="single-news.html" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+							<a href="" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
 						</div>
 					</div>
 				</div>
@@ -220,7 +222,7 @@
 
                                 bahan wallycreep<br>
                                 ld 84 pjg 105 lebar rok 2,25meter +pinggang ada ada renda cantik+bergo.</p>
-							<a href="single-news.html" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+							<a href="" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
 						</div>
 					</div>
 				</div>
@@ -242,7 +244,7 @@
                                 Jangan lupa untuk mencantumkan warna dan ukuran.<br>
 
                                 Transfer diatas jam 14.00 WIB barang dikirim hari berikutnya..</p>
-							<a href="single-news.html" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+							<a href="" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
 						</div>
 					</div>
 				</div>

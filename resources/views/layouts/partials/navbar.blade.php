@@ -6,8 +6,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span></button>
             <a class="navbar-brand" href="">
-                <b><span>
-                       Sistem Penjualan </span>Baju</b></a>
+                <b>Sistem Penjualan Baju</b></a>
             <ul class="nav navbar-top-links navbar-right">
             <li class=""><a href="{{ route('logout') }}" onclick="event.preventDefault();
                          document.getElementById('logout-form').submit();">

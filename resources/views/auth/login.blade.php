@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Skydash Admin</title>
+  <title></title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="{{asset('backend/vendors/feather/feather.css')}}">
   <link rel="stylesheet" href="{{asset('backend/vendors/ti-icons/css/themify-icons.css')}}">
@@ -26,16 +26,12 @@
         <div class="row w-100 mx-0">
           <div class="col-lg-4 mx-auto">
             <div class="auth-form-light text-left py-5 px-4 px-sm-5">
-              <div class="brand-logo">
-                <img src="{{asset('backend/images/logo.svg')}}" alt="logo">
-              </div>
-              <h4>Hello! let's get started</h4>
-              <h6 class="font-weight-light">Sign in to continue.</h6>
+              <h3>Login</h3>
               <form class="pt-3" method="POST" action="{{ route('login') }}">
                         @csrf
                 <div class="form-group">
 
-                   <label for="email" class="col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
+                   <label for="email" class="col-form-label text-md-right">{{ __('Masukan Email') }}</label>
 
                             <div class="col-md-12">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror"  placeholder="Masukan Email" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
@@ -73,11 +69,6 @@
                     </label>
                   </div>
                   <a href="#" class="auth-link text-black">Forgot password?</a>
-                </div>
-                <div class="mb-2">
-                  <button type="button" class="btn btn-block btn-facebook auth-form-btn">
-                    <i class="ti-facebook mr-2"></i>Connect using facebook
-                  </button>
                 </div>
                 <div class="text-center mt-4 font-weight-light">
                   Don't have an account? <a href="{{ route('register') }}" class="text-primary">Create</a>
